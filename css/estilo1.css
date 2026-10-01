@@ -1,53 +1,195 @@
+
 body {
-    background-color: #ffffff;
-    color: #000;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #bce0ee;
     padding: 20px;
 }
 
 nav {
-    background-color: #00008b;
     padding: 15px 20px;
-    text-align: left;
 }
 
 nav a {
-    color: white;
     text-decoration: underline;
-    margin-right: 20px;
     font-weight: bold;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
     padding: 20px;
 }
 
 section {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 20px;
     margin-bottom: 0;
 }
 
 button {
-    background-color: blue;
-    color: white;
     border: none;
-    padding: 10px 15px;
     cursor: pointer;
 }
 
 footer {
-    background-color: #d3d3d3;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+}
+
+
+
+body.estilo-1 {
+    background-color: #ffffff;
+    color: #000;
+}
+
+body.estilo-1 header {
+    background-color: #bce0ee;
+}
+
+body.estilo-1 nav {
+    background-color: #00008b;
+    text-align: left;
+}
+
+body.estilo-1 nav a {
+    color: white;
+    margin-right: 20px;
+}
+
+body.estilo-1 main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body.estilo-1 section {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+body.estilo-1 button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+}
+
+body.estilo-1 footer {
+    background-color: #d3d3d3;
+}
+
+
+
+body.estilo-2 {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.estilo-2 header {
+    text-align: center;
+    padding: 30px;
+}
+
+body.estilo-2 nav {
+    background-color: #2b2b2b;
+    text-align: center;
+}
+
+body.estilo-2 nav a {
+    color: #ffffff;
+    margin: 0 15px;
+}
+
+body.estilo-2 main {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 20px;
+}
+
+body.estilo-2 section {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 30px;
+    width: 30%;
+}
+
+body.estilo-2 button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+body.estilo-2 footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px;
+}
+
+
+
+body.estilo-3 {
+    background-color: #121213;
+    color: #ffffff;
+}
+
+body.estilo-3 header {
+    text-align: center;
+    padding: 30px;
+}
+
+body.estilo-3 header h1 {
+    color: #00f0ff;
+}
+
+body.estilo-3 nav {
+    background-color: #000000;
+    text-align: center;
+}
+
+body.estilo-3 nav a {
+    color: #00f0ff;
+    margin: 0 15px;
+}
+
+body.estilo-3 main {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px;
+}
+
+body.estilo-3 section {
+    background-color: #1a1a1a;
+    border: 1px solid #00f0ff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 30%;
+}
+
+body.estilo-3 section h2 {
+    color: #00f0ff;
+}
+
+body.estilo-3 button {
+    background-color: #00f0ff;
+    color: #000000;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+body.estilo-3 footer {
+    background-color: #000000;
+    color: white;
+    padding: 30px;
 }
