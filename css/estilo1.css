@@ -40,7 +40,7 @@ footer {
 
 
 /* ==========================================
-   ESTILO 1 (body.estilo-1)
+   ESTILO 1 (Clase: .estilo-1)
 ========================================== */
 body.estilo-1 {
     background-color: #ffffff;
@@ -85,7 +85,7 @@ body.estilo-1 footer {
 
 
 /* ==========================================
-   ESTILO 2 (body.estilo-2)
+   ESTILO 2 (Clase: .estilo-2)
 ========================================== */
 body.estilo-2 {
     background-color: #1a1a1a;
@@ -141,7 +141,7 @@ body.estilo-2 footer {
 
 
 /* ==========================================
-   ESTILO 3 (body.estilo-3)
+   ESTILO 3 (Clase: .estilo-3)
 ========================================== */
 body.estilo-3 {
     background-color: #121213;
