@@ -1,4 +1,6 @@
-
+/* ==========================================
+   ESTILOS GENERALES Y BASE
+========================================== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -37,7 +39,9 @@ footer {
 }
 
 
-
+/* ==========================================
+   ESTILO 1 (body.estilo-1)
+========================================== */
 body.estilo-1 {
     background-color: #ffffff;
     color: #000;
@@ -80,7 +84,9 @@ body.estilo-1 footer {
 }
 
 
-
+/* ==========================================
+   ESTILO 2 (body.estilo-2)
+========================================== */
 body.estilo-2 {
     background-color: #1a1a1a;
     color: white;
@@ -134,7 +140,9 @@ body.estilo-2 footer {
 }
 
 
-
+/* ==========================================
+   ESTILO 3 (body.estilo-3)
+========================================== */
 body.estilo-3 {
     background-color: #121213;
     color: #ffffff;
